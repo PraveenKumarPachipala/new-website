@@ -69,214 +69,38 @@
     </style>
  	</head>
   	<body>
-    	<!-- <main class="row wrap">
-        <div class="flex-shrink-0 p-3 bg-white" id="sidebar">
-            <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-              <svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-              <span class="fs-5 fw-semibold">Collapsible</span>
-            </a>
-            <ul class="list-unstyled ps-0">
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
-                  Home
-                </button>
-                <div class="collapse" id="home-collapse" style="">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">Overview</a></li>
-                    <li><a href="#" class="link-dark rounded">Updates</a></li>
-                    <li><a href="#" class="link-dark rounded">Reports</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                  Dashboard
-                </button>
-                <div class="collapse" id="dashboard-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">Overview</a></li>
-                    <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                    <li><a href="#" class="link-dark rounded">Annually</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                  Orders
-                </button>
-                <div class="collapse" id="orders-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">New</a></li>
-                    <li><a href="#" class="link-dark rounded">Processed</a></li>
-                    <li><a href="#" class="link-dark rounded">Shipped</a></li>
-                    <li><a href="#" class="link-dark rounded">Returned</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="border-top my-3"></li>
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-                  Account
-                </button>
-                <div class="collapse" id="account-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">New...</a></li>
-                    <li><a href="#" class="link-dark rounded">Profile</a></li>
-                    <li><a href="#" class="link-dark rounded">Settings</a></li>
-                    <li><a href="#" class="link-dark rounded">Sign out</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div class="flex-shrink-0 p-3 bg-white" id="content">
-            <a href="javascript:void(0)" class="btn btn-primary align-items-center mb-3 link-dark text-decoration-none border-bottom" onclick="open()">Toggle
-            </a>
-            <ul class="list-unstyled ps-0">
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#home-collapse" aria-expanded="false">
-                  Home
-                </button>
-                <div class="collapse" id="home-collapse" style="">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">Overview</a></li>
-                    <li><a href="#" class="link-dark rounded">Updates</a></li>
-                    <li><a href="#" class="link-dark rounded">Reports</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#dashboard-collapse" aria-expanded="false">
-                  Dashboard
-                </button>
-                <div class="collapse" id="dashboard-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">Overview</a></li>
-                    <li><a href="#" class="link-dark rounded">Weekly</a></li>
-                    <li><a href="#" class="link-dark rounded">Monthly</a></li>
-                    <li><a href="#" class="link-dark rounded">Annually</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#orders-collapse" aria-expanded="false">
-                  Orders
-                </button>
-                <div class="collapse" id="orders-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">New</a></li>
-                    <li><a href="#" class="link-dark rounded">Processed</a></li>
-                    <li><a href="#" class="link-dark rounded">Shipped</a></li>
-                    <li><a href="#" class="link-dark rounded">Returned</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="border-top my-3"></li>
-              <li class="mb-1">
-                <button class="btn btn-toggle align-items-center rounded collapsed" data-bs-toggle="collapse" data-bs-target="#account-collapse" aria-expanded="false">
-                  Account
-                </button>
-                <div class="collapse" id="account-collapse">
-                  <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                    <li><a href="#" class="link-dark rounded">New...</a></li>
-                    <li><a href="#" class="link-dark rounded">Profile</a></li>
-                    <li><a href="#" class="link-dark rounded">Settings</a></li>
-                    <li><a href="#" class="link-dark rounded">Sign out</a></li>
-                  </ul>
-                </div>
-              </li>
-            </ul>
-          </div>
-   		 </main> -->
-
-		<div class="main-wrap h-100">
+        <div class="main-wrap h-100">
 			<input id="slide-sidebar" type="checkbox" role="button" />
-		
+			
 			<label for="slide-sidebar" class="m-3">
 				<a class="btn btn-toggle btn-light text-dark"><b><i class="bi bi-list"></i></b></a>
 			</label>
 			<div class="sidebar p-3 bg-light">
 				<a href="index.html" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-					<svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
-					<span class="fs-5 fw-semibold">Collapsible</span>
+				<svg class="bi me-2" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+				<span class="fs-5 fw-semibold">Collapsible</span>
 				</a>
 				<div class="center mb-3">
-				<div class="center_container center box_shadow_1 fullrotate" style="height: 160px; width: 200px; background: #f8f5f5;">
-					<div class="center box_shadow_1 fullrotate" style="height: 140px; width: 170px; background: rgb(119, 23, 23); color: #fff;">
-						<div class="flex_center text_center">
-							<div class="center">
-								<div class="flex_center box_shadow_1 fullrotate" style="height: 100px; width: 120px; background: rgb(255, 255, 255); color: #000; border-radius: 100%;">
-									<p class="m-0">Hello Dev</p>
+					<div class="center_container center box_shadow_1 fullrotate" style="height: 160px; width: 200px; background: #f8f5f5;">
+						<div class="center box_shadow_1 fullrotate" style="height: 140px; width: 170px; background: rgb(119, 23, 23); color: #fff;">
+							<div class="flex_center text_center">
+								<div class="center">
+									<div class="flex_center box_shadow_1 fullrotate" style="height: 100px; width: 120px; background: rgb(255, 255, 255); color: #000; border-radius: 100%;">
+										<p class="m-0">Hello Dev</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				</div>
-				<ul class="list-unstyled ps-0">
-				<li class="mb-1">
-					<button class="btn btn-toggle rounded collapsed mt-3 mb-3 w-100" style="text-align: left; box-shadow: 0 0 0 2px rgb(13 110 253 / 25%);" data-bs-toggle="collapse"data-bs-target="#home-collapse" aria-expanded="false">
-					Home
-					</button>
-					<div class="collapse ms-3" id="home-collapse">
-					<ul class="btn-toggle-nav list-unstyled fw-normal small">
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Overview</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Updates</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Reports</a></li>
-					</ul>
-					</div>
-				</li>
-				<li class="mb-1">
-					<button class="btn btn-toggle rounded collapsed mb-3 w-100" style="text-align: left; box-shadow: 0 0 0 2px rgb(13 110 253 / 25%);" data-bs-toggle="collapse"data-bs-target="#dashboard-collapse" aria-expanded="false">
-					Dashboard
-					</button>
-					<div class="collapse ms-3" id="dashboard-collapse">
-					<ul class="btn-toggle-nav list-unstyled fw-normal small">
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Overview</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Weekly</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Monthly</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Annually</a></li>
-					</ul>
-					</div>
-				</li>
-				<li>
-					<button class="btn btn-toggle rounded collapsed mb-3 w-100" style="text-align: left; box-shadow: 0 0 0 2px rgb(13 110 253 / 25%);" data-bs-toggle="collapse"data-bs-target="#orders-collapse" aria-expanded="false">
-					Orders
-					</button>
-					<div class="collapse ms-3" id="orders-collapse">
-					<ul class="btn-toggle-nav list-unstyled fw-normal small">
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">New</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Processed</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Shipped</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Returned</a></li>
-					</ul>
-					</div>
-				</li>
-				<div class="border-top mb-3"></div>
-				<li class="mb-1">
-					<button class="btn btn-toggle rounded collapsed w-100" style="text-align: left; box-shadow: 0 0 0 2px rgb(13 110 253 / 25%);" data-bs-toggle="collapse"data-bs-target="#account-collapse" aria-expanded="false">
-					Account
-					</button>
-					<div class="collapse ms-3" id="account-collapse">
-					<ul class="btn-toggle-nav list-unstyled fw-normal small">
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mt-3 mb-3 w-50">New...</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Profile</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill mb-3 w-50">Settings</a></li>
-						<li><a href="#" class="btn btn-primary text-white link-dark rounded-pill w-50">Sign out</a></li>
-					</ul>
-					</div>
-				</li>
-				<div class="border-top my-3"></div>
-				</ul>
 			</div>
-		
-			<!-- This division contains the actual content of the webpage -->
+        
+          <!-- This division contains the actual content of the webpage -->
 			<div class="content">
 				<div class="p-5 mt-5">
-					<p class="m-0">Charles Xavier</p>
+				<p class="m-0">Charles Xavier</p>
 				</div>
 			</div>
-		</div>
+        </div>
   	</body>
 </html>
